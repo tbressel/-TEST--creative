@@ -1,10 +1,15 @@
 body {
     text-align: center;
+    background-color: blue;
+    transition: 500ms ease-in-out;
 }
 
 header {
-    background-color: aqua;
+    color: aliceblue;
+    background-color: blue;
     width: 100%;
+    transition: 500ms ease-in-out;
+     
 }
 
 ul {
@@ -17,35 +22,104 @@ ul {
     color: aliceblue;
     text-transform: uppercase;
     text-align: center;
-    font-size: larger;
+  
     list-style: none;
+    border-radius: 30px;
+
+    transition: 500ms ease-in-out;
 }
 #canvas {
     background-image: url("../img/background.jpg");
     background-size: cover;
+    background-position: center; 
    border-radius: 40%;
-    width: 920px;
+    width: 100vw;
     height: 680px;
 }
 
 
-
-@media screen and (max-width:700px) {
+@media screen and (max-width:1200px) {
     
+    body {
+        text-align: center;
+        background-color: rgb(51, 51, 199);
+        transition: 500ms ease-in-out;
+    }
+    
+    header {
+        background-color: rgb(51, 51, 199);
+        width: 100%;
+        transition: 500ms ease-in-out;
+         
+    }
 
+}
+@media screen and (max-width:1000px) {
+    
+    body {
+        text-align: center;
+        background-color: rgb(72, 72, 169);
+        transition: 500ms ease-in-out;
+    }
+    
+    header {
+        background-color: rgb(72, 72, 169);
+        width: 100%;
+        transition: 500ms ease-in-out;
+         
+    }
 
+}
 
+@media screen and (max-width:950px) {
+    body {
+        text-align: center;
+        background-color: rgb(59, 99, 179);
+        transition: 500ms ease-in-out;
+    }
+    
+    header {
+        background-color: rgb(59, 99, 179);
+        width: 100%;
+        transition: 500ms ease-in-out;
+         
+    }
     #canvas {
         background-image: url("../img/background.jpg");
         background-size: cover;
        border-radius: 40%;
+        width: 90vw;
+        height: 580px;
+
+}
+
+}
+
+@media screen and (max-width:700px) {
+    
+
+    body {background-color: rgb(44, 180, 171);
+        transition: 500ms ease-in-out;
+    
+    }
+
+
+header {
+    background-color:  rgb(44, 180, 171);
+    width: 100%;
+    transition: 500ms ease-in-out;
+     
+}
+
+    #canvas {
+        background-image: url("../img/background.jpg");
+        background-size: cover;
+        background-position: center; 
+       border-radius: 40%;
         width: 100vw;
         height: 480px;
     }
-    header {
-        background-color: aqua;
-        width: 100%;
-    }
+
     
     ul {
         display: flex;
@@ -59,18 +133,45 @@ ul {
         text-align: center;
         font-size:small;
         list-style: none;
+        transition: 500ms ease-in-out;
     }
 
 }
 
-
-@media screen and (max-width:950px) {
+@media screen and (max-width:400px) {
     
-    #canvas {
-        background-image: url("../img/background.jpg");
-        background-size: cover;
-       border-radius: 40%;
-        width: 90vw;
-        height: 580px;
+body {background-color: aqua;
+    transition: 500ms ease-in-out;}
+
+header {
+    background-color: aqua;
+    width: 100%;
+    transition: 500ms ease-in-out;
+     
+}
+#canvas {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center; 
+   border-radius: 40%;
+    width: 100vw;
+    height: 480px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:8px;
+    list-style: none;
+    transition: 500ms ease-in-out;
+}
 
 }
+
